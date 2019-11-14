@@ -1,0 +1,71 @@
+Module Test (Practical): Module Test 3 on JSP Servlets, JPA with Hibernate and Angular 2
+Max Marks: 70
+Duration: 2.5 hrs
+Page 1 of 2
+Assessment Parameters
+? Solution Completeness (all requirements addressed) – 10 %
+? Working solution for each requirement – 20 %
+? Comments – 10%
+? Coding standards – 10 %
+Section 1: JSP & Servlet [marks 35]
+Problem Statement :
+1. Create a dynamic web application with name as “MobileRegistrationForm”[use servlet 3.0]. (Make Mobile.jsp as home page instead of index.jsp using web.xml)
+2. In Mobile.jsp, create a Mobile Application form, which has text boxes for Mobile Id, Mobile Name, Mobile Model, Mobile MfgYear(drop down), Mobile Price.
+3. Mobile Id must accept only 4 digit number. Price should not be greater than 12000, Year must be between 2017-2019 in drop down list.
+4. Get all the data from user [all fields are required] in MobileController and validate as Mobile name is “IPhone”. if validation of Mobile Name succeed then redirect to “successPurchase.html”
+5. In SuccessPurchase.jsp , display mobile name as “Mobile <<Mobile Name>> has been successfully purchased.”
+Mark Distribution:
+Creating and displaying form as requested in tabular format
+8
+Validation using html5
+5
+Exception Handling
+2
+Naming Convention
+5
+Displaying success message in successPurchase.jsp
+4
+(Make Mobile.jsp as home page instead of index.jsp using web.xml)
+3
+Able to Dispatch from Mobile SuccessPurchase Page and dispatch to error page if Mobile name doesnot match using RequestDispatcher
+8
+Module Test (Practical): Module Test 1 on Foundational Courses
+Max Marks: 70
+Duration: 4 hrs
+Page 2 of 2
+Capgemini Public
+Section 2 – JPA with Hibernate [Marks 20]
+1. Create a core JPA hibernate Application named “PizzaOrderDelivery”. Application has to get Order Id auto generated ,pizza_type, extra_Cheese, quantity, totalPrice from user. [use scanner].
+2. Once getting data from user , calculate the total price based on quantity.
+3. Then set it to entity class instance and persist the data in DB.
+4. Table is created using JPA with Hibernate.
+5. Map OrderId to be primary key in entity class.
+Jpa with Hibernate
+Creating entity class and mapping primary key for existing table in Db
+5
+Persisting data into DB using jpa API
+5
+Creation of persistence.xml and config inside it
+4
+Calculation and display of total pizza price
+3
+Naming convention and transaction handling
+3
+Section 3 – Angular 2 [Marks 15]
+1. Create Angular Application with name “Register_Mobile_app”, create a component with name “RegisterMobileComponent”. This component has to render the given fields using html template which has 4 text box –Mobile Name, Mobile Model, Mobile Mfg Year, Mobile price.
+a. Using the component render a html page (use templateUrl).
+b. Apply styles button color as green (using styleurl)
+c. When user starts typing in text box it has be rendered immediately in below division.
+[Marks 15]
+Note : import appropriate components and packages for implementing 2 way binding.
+Angular 2
+Implementing 2 way binding
+5
+Applying style of button using styleUrl
+2
+Using templateUrl for html component
+2
+Usage of ngModule , component decorator
+3
+Rendering the content as shown in screenshot
+3
